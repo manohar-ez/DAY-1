@@ -1,0 +1,50 @@
+h1{
+    color: black;
+    background-color: rgb(255, 162, 40);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+}
+img{
+    height: 300px;
+    width: 300px;
+    border: 10%;
+    border-color: blue;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+button{
+    height: 50px;
+    width: 100px;
+    align-items: center;
+    color: blueviolet;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+body
+{
+    background-color: white;
+    color: black;
+    text-align: center;
+    transition: 0.5s;
+}
+h1:hover{
+    background-color: aqua;
+    border-radius: 50px;
+}
